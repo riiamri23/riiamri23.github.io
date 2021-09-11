@@ -2,7 +2,10 @@ const path = require('path');
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  target: 'riiamri23.github.io',
+  target: 'static',
+  router:{
+    base: '/riiamri23.github.io'
+  },
   head: {
     title: 'portfolio',
     htmlAttrs: {
