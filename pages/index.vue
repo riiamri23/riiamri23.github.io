@@ -103,7 +103,7 @@
         </p>
         <p class="pt-8 text-sm">
           I’ve no life and I’m a programmer. I've sacrificed my life to learn
-          programming languages ​​and frameworks to build apps. I can make your
+          programming languages to build apps. I can make your
           dream come true with my power and knowledge.
         </p>
 
