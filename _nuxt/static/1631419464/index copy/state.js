@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"https:\u002F\u002Friiamri23.github.io\u002F_nuxt\u002Fstatic\u002F1631419464",layout:"default",error:a,serverRendered:true,routePath:"\u002Findex%20copy",config:{_app:{basePath:"https:\u002F\u002Friiamri23.github.io\u002F",assetsPath:"https:\u002F\u002Friiamri23.github.io\u002F_nuxt\u002F",cdnURL:a}}}}(null));
