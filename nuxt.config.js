@@ -3,9 +3,6 @@ const path = require('path');
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
-  router:{
-    base: '/'
-  },
   head: {
     title: 'portfolio',
     htmlAttrs: {
