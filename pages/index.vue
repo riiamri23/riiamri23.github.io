@@ -70,7 +70,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "Itsuka Dashbord",
+        content: "Itsuka Dashbord Clone",
       },
       {
         property: "og:description",
