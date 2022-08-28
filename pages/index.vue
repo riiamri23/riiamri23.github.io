@@ -59,28 +59,28 @@ export default {
   },
 
   head: {
-    title: "Portfolio Rii Amri",
+    title: "Portfolio Syaeful Amri",
     meta: [
       {
         hid: "description",
         name: "description",
         content:
-          "A Lightweight and Stable Discord Music Bot For Your Daily Production.",
+          "Syaeful Amri portfolio for work",
       },
       {
         hid: "og:title",
         name: "og:title",
-        content: "Itsuka Dashbord Clone",
+        content: "portfolio rii amri github",
       },
       {
         property: "og:description",
         content:
-          "A Lightweight and Stable Discord Music Bot For Your Daily Production.",
+          "Syaeful Amri bekerja di PT. Indodev Niaga Internet, pernah kuliah di universitas muhammadiyah purwokerto",
       },
       {
         hid: "og:image",
         name: "og:image",
-        content: "https://i.imgur.com/UmWcMjO.png",
+        content: "https://avatars.githubusercontent.com/u/39664310?v=4",
       },
     ],
   },
