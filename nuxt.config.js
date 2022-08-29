@@ -15,7 +15,8 @@ export default {
         hid: "Syaeful Amri riiamri23",
         name: "Syaeful Amri",
         content: process.env.npm_package_description || ""
-      }
+      },
+      {name: "google-site-verification", content:"dfI6n5cwvZ7Tc3JNF562s-gNCrpjvu0sKfqWklUv3-E"}
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

@@ -8,6 +8,14 @@
 
 body {
     background-image: url(assets/images/bg.svg);
+    user-select: none;
+    font-family: "Quicksand", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-align: center; */
+    background-color: #fff;
+    background-attachment: fixed;
+    color: #000;
 }
 
 /* .bg-image{

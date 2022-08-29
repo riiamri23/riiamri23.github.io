@@ -19,7 +19,7 @@
                     <router-link to="/project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</router-link>
                 </li>
                 <li>
-                    <router-link to="/article" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Articles</router-link>
+                    <router-link to="/experiences" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experiences</router-link>
                 </li>
                 <li>
                     <router-link to="/contact" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</router-link>
