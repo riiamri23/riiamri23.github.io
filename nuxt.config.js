@@ -46,6 +46,7 @@ export default {
   modules: [
     'nuxt-purgecss',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   purgeCSS: {
