@@ -32,7 +32,7 @@ export default {
   head() {
     return {
       bodyAttrs: {
-        class: "font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover bg-image",
+        class: " antialiased text-gray-900 leading-normal tracking-wider bg-cover bg-image",
         
       },
     };
