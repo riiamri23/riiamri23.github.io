@@ -2,10 +2,10 @@
 
     <div class="relative md:flex flex-row items-center mt-20">
         <div class="md:w-1/3">
-            <div class="relative w-52 m-auto">
+            <div class="relative w-72 m-auto">
                 <img 
                     class="rounded-full border shadow-sm w-full" 
-                    src="~/assets/images/avatar-1.webp"
+                    src="~/assets/images/indodevniaga_3688.jpeg"
                     id="avatar-img"
                     alt="Itsuka" />
             </div>
