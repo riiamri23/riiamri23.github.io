@@ -59,7 +59,7 @@ export default {
   },
 
   head: {
-    title: "Portfolio Syaeful Amri",
+    title: "Syaeful Amri",
     meta: [
       {
         hid: "description",
