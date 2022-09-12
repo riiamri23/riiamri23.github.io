@@ -1,0 +1,14 @@
+/* ./assets/css/tailwind.css */
+/* @font-face {
+    font-family: "Roboto";
+    src: local("Roboto"), url(~assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html {
+    font-family: 'Poppins', 'Segoe UI', Roboto !important;
+} */
