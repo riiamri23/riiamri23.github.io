@@ -11,8 +11,12 @@
     "letsgo": "sh ./script.sh"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "core-js": "^3.15.1",
+    "install": "^0.13.0",
+    "npm": "^8.19.1",
     "nuxt": "^2.15.7",
+    "v-animate-css": "^0.0.5",
     "vue-ionicons": "^3.0.5"
   },
   "devDependencies": {

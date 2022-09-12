@@ -17,8 +17,8 @@
             <div class="my-4 md:w-4/5">
                 <p class="text-lg mb-4">I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge.</p>
                 <div id="button" class="flex">
-                    <a href="#" class="text-white bg-gray-600 px-3 py-2 rounded mx-2">Explore ></a>
-                    <a href="#" class="text-white bg-red-500 px-3 py-2 rounded mx-2">Get In Touch</a>
+                    <a href="#" class="text-white bg-gray-600 px-3 py-2 rounded mx-2 animate__animated animate__wobble animate__delay-2s animate__fast">Explore ></a>
+                    <a href="#" class="text-white bg-red-500 px-3 py-2 rounded mx-2">Download CV</a>
                 </div>
             </div>
             <div id="sosmed-link" class="flex justify-center md:justify-start">
