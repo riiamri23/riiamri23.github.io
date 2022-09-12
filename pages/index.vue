@@ -11,7 +11,7 @@
             </div>
         </div>
         <div class="md:w-2/3 px-2">
-            <h1 class="text-4xl font-semibold">Hi 👋, <br/>
+            <h1 class="text-4xl font-semibold animate__animated animate__fadeInUp animate__fast">Hi 👋, <br/>
             I'm Syaeful Amri.
             </h1>
             <div class="my-4 md:w-4/5">
@@ -21,7 +21,7 @@
                     <a href="/Portfolio_Syaeful Amri.pdf" download class="text-white bg-red-500 px-3 py-2 rounded mx-2">Download CV</a>
                 </div>
             </div>
-            <div id="sosmed-link" class="flex justify-center md:justify-start">
+            <div id="sosmed-link" class="flex justify-center md:justify-start animate__animated animate__fadeInUp animate__delay-1s">
                 <a target="_blank" rel="noopener" :href="socialLinks.github" class="mx-4">
                     <GithubIcon w="25px" h="25px" />
                 </a>

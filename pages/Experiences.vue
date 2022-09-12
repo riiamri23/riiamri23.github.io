@@ -3,7 +3,7 @@
         <div class="md:w-1/2 px-4">
             <h1 class="text-4xl font-semibold line-after mb-5">My Experiences</h1>
             <div class="flex-row">
-                <div class="w-full md:flex flex-row mx-auto">
+                <!-- <div class="w-full md:flex flex-row mx-auto">
                     <img src="~/assets/images/dataon.png" alt="dataon company logo" class="md:w-40">
                     <div class="ml-4">
                         <h2 class="text-2xl font-medium mb-2">PT. Indodev Niaga Internet</h2>
@@ -17,7 +17,61 @@
                         <li>Checks if the functional application is running properly and there are no errors or bugs</li>
                         <li>Support software implementation and maintenance if you find problems with module attendance</li>
                     </ul>
-                </div>
+                </div> -->
+                <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                    <li class="mb-10 ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">Juli 2021 - Present</time>
+                            <div class="flex">
+                            <div class="pr-4">
+                                <img src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/44c60ca22d342e997b039a5322ecf447.png" width="120px" />
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900">PT Indodev Niaga Internet</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Software Developer</h3>
+                            </div>
+                            </div>
+                            <p class="mb-4 text-base font-normal text-gray-500">
+                            <ul>
+                                <li>- Merancang dokumentasi dan coding untuk fitur baru pada module attendance sunfish 6, sunfish 7</li>
+                                <li>- Melakukan bug fixing pada aplikasi sunfish 6, sunfish 7 dan greatdayhr (backend)</li>
+                                <li>- Mengecek jika functional aplikasi berjalan sesuai dan tidak ada error atau bug</li>
+                                <li>- Men-support software implementasi dan maintance jika menemukan kendala pada module attendance</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="mb-10 ml-4">
+                        <div
+                            class="absolute w-3 h-3 bg-gray-200 rounded-full -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                        </div>
+                        <div>
+                            <time class="mb-1 text-sm font-normal leading-none text-gray-400">Maret 2020 - Juli 2021</time>
+                            <div class="flex">
+                            <div class="pr-4">
+                                <img src="https://seeklogo.com/images/L/Lawson_Station-logo-98685A0743-seeklogo.com.png" width="120px" />
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900">PT Lancar Wiguna Sejahtera (Lawson)</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">Data Mining Programmer</h3>
+                            </div>
+                            </div>
+                            <p class="mb-4 text-base font-normal text-gray-500">
+                            <ul>
+                                <li>- Membuat dan merancang aplikasi web order online Lawson Delivery (https://order.lws.co.id)</li>
+                                <li>- Mengintegrasikan aplikasi web order online dengan POS</li>
+                                <li>- Membuat aplikasi tracking pesanan untuk memastikan jika produk terlacak dari store ke customer</li>
+                                <li>- Membuat aplikasi mobile untuk order online (prototype)</li>
+                                <li>- Mengintegrasikan aplikasi dengan payment gateway (midtrans)</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </div>
         <div class="md:w-1/2 md:block hidden">
