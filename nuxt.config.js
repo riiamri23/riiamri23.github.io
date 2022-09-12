@@ -48,6 +48,11 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
   ],
+  sitemap: {
+    hostname: 'https://riiamri23.github.io/',
+    gzip: true,
+    exclude: ['/about']
+ },
 
   purgeCSS: {
     mode: 'postcss',
