@@ -51,7 +51,7 @@ export default {
   sitemap: {
     hostname: 'https://riiamri23.github.io/',
     gzip: true,
-    exclude: ['/about']
+    exclude: ['/*']
  },
 
   purgeCSS: {
