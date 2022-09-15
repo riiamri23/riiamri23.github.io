@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
 
     fontFamily: {
-      'poppins': ['poppins'],
+      'Quicksand': ['Quicksand'],
     },
   },
   variants: {
