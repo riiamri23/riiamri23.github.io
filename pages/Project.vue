@@ -1,10 +1,10 @@
 <template>
-    <div class="container  mx-auto mt-10">
+    <div class="container mx-auto mt-10 animate__animated animate__fadeInUp animate__fast">
         <h1 class="text-4xl text-center mb-10">Recents Projects</h1>
         <div id="list-projects" class="flex-row">
             <div class="md:flex flex-row items-start mx-10">
                 <div class="md:w-1/2 m-2">
-                    <img src="~/assets/images/wibudesu.png" alt="dummy project" />
+                    <img src="~/assets/images/wibudesu.jpeg" alt="dummy project" />
                 </div>
                 <div class="md:w-1/2 m-2">
                     <h1 class="text-3xl">Wibudesu</h1>
