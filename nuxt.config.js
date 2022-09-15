@@ -14,7 +14,7 @@ export default {
       {
         hid: "Syaeful Amri riiamri23",
         name: "Syaeful Amri",
-        content: process.env.npm_package_description || "Syaeful Amri portfolio for work, i can do what you need, my domain web is riiamri github io i hope someone can search my web in their chrome or firefox or whatever, Syaeful Amri Profesional Software Developer, I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge."
+        content: process.env.npm_package_description || "Syaeful Amri portfolio for work, i can do what you need, my domain web is riiamri github io i hope someone can search my web in their chrome or firefox or whatever, Syaeful Amri Profesional Software Developer, I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge. Experienced Software Engineer with a demonstrated history of working in the retail industry. Skilled in PHP, CodeIgniter, Back-End Web Development, REST API, and HTML. Strong engineering professional with a Bachelor's degree focused in Information Technology from Universitas Muhammadiyah Purwokerto. Explore something about me"
       },
       {name: "google-site-verification", content:"google-site-verification=7E6C57FOX7jNrWR0eQ4XpdZiH0vUN_1t-KdjFhcRHNk"}
     ],
