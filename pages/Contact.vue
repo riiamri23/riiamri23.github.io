@@ -4,7 +4,10 @@
         <h1 class="text-4xl">Get in Touch</h1>
         <p>If you have any question or just want to say hi, i'll try my best to get back to you</p>
     </div>
-    <form>
+    <form action=”mailto:contact@yourdomain.com”
+    method=”POST”
+    enctype=”text/plain”
+    name=”EmailForm”>
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="yourname">
                 Your Name
@@ -44,7 +47,7 @@
             placeholder="Your message"
             ></textarea>
         </div>
-        <button class="text-white bg-red-500 px-3 py-2 rounded mx-2">Submit</button>
+        <button type="submit" class="text-white bg-red-500 px-3 py-2 rounded mx-2">Send</button>
     </form>
 </div>
 </template>

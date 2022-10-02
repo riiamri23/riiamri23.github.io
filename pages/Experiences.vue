@@ -34,11 +34,11 @@
                                     <h3 class="text-lg font-semibold text-gray-900">Software Developer</h3>
                                 </div>
                             </div>
-                            <ul>
-                                <li>- Merancang dokumentasi dan coding untuk fitur baru pada module attendance sunfish 6, sunfish 7</li>
-                                <li>- Melakukan bug fixing pada aplikasi sunfish 6, sunfish 7 dan greatdayhr (backend)</li>
-                                <li>- Mengecek jika functional aplikasi berjalan sesuai dan tidak ada error atau bug</li>
-                                <li>- Men-support software implementasi dan maintance jika menemukan kendala pada module attendance</li>
+                            <ul class="list-disc list-outside ml-4">
+                                <li>Designing documentation and coding for new features in sunfish 6, sunfish 7 just for attendance module</li>
+                                <li>Doing bug fixing on sunfish 6, sunfish 7 and greatdayhr (backend) applications</li>
+                                <li>Checks if the functional application is running properly and there are no errors or bugs</li>
+                                <li>Support software implementation and maintenance if they had a problem with module attendance</li>
                             </ul>
                         </div>
                     </li>
@@ -58,12 +58,12 @@
                                 <h3 class="text-lg font-semibold text-gray-900">Data Mining Programmer</h3>
                             </div>
                             </div>
-                            <ul>
-                                <li>- Membuat dan merancang aplikasi web order online Lawson Delivery (https://order.lws.co.id)</li>
-                                <li>- Mengintegrasikan aplikasi web order online dengan POS</li>
-                                <li>- Membuat aplikasi tracking pesanan untuk memastikan jika produk terlacak dari store ke customer</li>
-                                <li>- Membuat aplikasi mobile untuk order online (prototype)</li>
-                                <li>- Mengintegrasikan aplikasi dengan payment gateway (midtrans)</li>
+                            <ul class="list-disc list-outside ml-4">
+                                <li>Create and design the Lawson Delivery online order web application (https://order.lws.co.id)</li>
+                                <li>Integrating online order web application with POS</li>
+                                <li>Create an order tracking application to ensure that products are traced from the store to the customer</li>
+                                <li>Create a mobile application for online orders (prototype)</li>
+                                <li>Integrating applications with payment gateways (midtrans)</li>
                             </ul>
                         </div>
                     </li>
@@ -83,15 +83,15 @@
                                 <h3 class="text-lg font-semibold text-gray-900">Software Developer</h3>
                             </div>
                             </div>
-                            <ul>
-                                <li>- Membuat web company profil (https://inf.co.id)</li>
-                                <li>- Membuat aplikasi perizinan SIJEMPOL untuk dpmptsp kabupaten kapuas</li>
-                                <li>- Membuat aplikasi perizinan SIMPATIK untuk dpmptsp provinsi kalimantan tengah</li>
-                                <li>- Install aplikasi di vps (LAMPP stack)</li>
-                                <li>- Membuat trigger di database untuk proses transaksi pada aplikasi</li>
-                                <li>- Membuat template perizinan dan menyesuaikan seperti permintaan kantor contoh izin: SIUP, IUJK, TDP, SIP dsb</li>
-                                <li>- Memastikan jika aplikasi sudah berjalan sesuai seperti regulasi yang sudah ditetapkan oleh kantor</li>
-                                <li>- Mempelajari soal tanda tangan digital dan OSS yang (akan) diterapkan oleh pemerintah (2019-2020)</li>
+                            <ul class="list-disc list-outside ml-4">
+                                <li>Create a web company profile (https://inf.co.id)</li>
+                                <li>Create application web SIJEMPOL for dpmptsp district kapuas</li>
+                                <li>Create application web SIMPATIK for dpmptsp province central kalimantan</li>
+                                <li>Install and maintance application web on vps (LAMPP stack)</li>
+                                <li>Create triggers in the database to process transactions in the application</li>
+                                <li>Create licensing templates and customize such as office requests for examples of permits: SIUP, IUJK, TDP, SIP, etc.</li>
+                                <li>Ensure that the application is running according to the regulations set by the office</li>
+                                <li>Learn about digital signatures and OSS that will be implemented by the government (2019-2020)</li>
                             </ul>
                         </div>
                     </li>

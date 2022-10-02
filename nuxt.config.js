@@ -57,10 +57,14 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
   ],
+  robots: {
+    UserAgent: '*',
+    allow: '/',
+  },
   sitemap: {
     hostname: 'https://riiamri23.github.io/',
     gzip: true,
-    exclude: ['/*']
+    exclude: ['/contact']
  },
 
   purgeCSS: {
