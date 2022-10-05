@@ -1,5 +1,5 @@
 <template>
-    <div class="container md:flex flex-row mx-auto mt-20">
+    <div class="container md:flex flex-row mx-auto mt-20 animate__animated animate__fadeInUp animate__fast">
         <div class="md:w-1/2 px-4">
             <h1 class="text-4xl font-semibold line-after mb-5">My Experiences</h1>
             <div class="flex-row">
@@ -80,7 +80,7 @@
                             </div>
                             <div>
                                 <h3 class="text-lg font-bold text-gray-900">CV Infomedia Technology</h3>
-                                <h3 class="text-lg font-semibold text-gray-900">Software Developer</h3>
+                                <h3 class="text-lg font-semibold text-gray-900">IT Staff</h3>
                             </div>
                             </div>
                             <ul class="list-disc list-outside ml-4">
@@ -120,4 +120,34 @@
 </style>
 
 <script>
+
+export default ({
+
+head: {
+  title: "Syaeful Amri - Experiences",
+  meta: [
+    {
+      hid: "description",
+      name: "description",
+      content:
+        "Syaeful Amri portfolio for work, i can do what you need, my domain web is riiamri github io i hope someone can search my web in their chrome or firefox or whatever, Syaeful Amri Profesional Software Developer, I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge.",
+    },
+    {
+      hid: "og:title",
+      name: "og:title",
+      content: "portfolio rii amri github",
+    },
+    {
+      property: "og:description",
+      content:
+        "Syaeful Amri bekerja di PT. Indodev Niaga Internet, pernah kuliah di universitas muhammadiyah purwokerto",
+    },
+    {
+      hid: "og:image",
+      name: "og:image",
+      content: "https://avatars.githubusercontent.com/u/39664310?v=4",
+    },
+  ],
+},
+})
 </script>
