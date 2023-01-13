@@ -71,6 +71,41 @@
           </div>
         </div>
       </div>
+
+      <!-- Chatheroin Project -->
+      <div class="md:flex flex-row items-start mx-10">
+        <div class="md:w-1/2 m-2">
+          <img src="~/assets/images/chatheroin.png" alt="dummy project" />
+        </div>
+        <div class="md:w-1/2 m-2">
+          <h1 class="text-3xl">Chatheroin</h1>
+          <hr class="dope" />
+          <div class="w-full rounded-lg border border-gray-200 p-5 my-5">
+            <p>
+              Do you want chat with Open AI GPT3, there is
+            </p>
+            <span
+              ><a
+                class="text-blue-500 hover:underline font-medium"
+                :href="demoLinks.chatheroinDemo"
+                target="_blank"
+                >Check it Out </a
+              ><MdLinkIcon class="inline-block" w="15px" h="15px"
+            /></span>
+            <hr class="line" />
+            <div>
+              <span
+                ><a
+                  :href="projectLinks.chatheroinLink"
+                  target="_blank"
+                  class="text-blue-500 hover:underline font-medium"
+                  >View Source Code </a
+                ><GithubIcon class="inline-block" w="15px" h="15px"
+              /></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -128,10 +163,12 @@ export default {
       projectLinks: {
         wibudesuLink: "https://github.com/riiamri23/wibudesu2",
         mypokedexLink: "https://github.com/riiamri23/mypokedex",
+        chatheroinLink: "https://github.com/riiamri23/chatheroin",
       },
       demoLinks: {
         wibudesuDemo: "https://wibudesu.vercel.app/",
         mypokedexDemo: "https://mypokedex-ten.vercel.app/",
+        chatheroinDemo: "https://chatheroin.vercel.app/",
       },
     };
   },
