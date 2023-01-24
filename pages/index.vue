@@ -1,10 +1,10 @@
 <template>
 
-    <div class="relative md:flex flex-row items-center mt-20 mb-10">
+    <div class="relative md:flex flex-row items-center md:mt-20 md:mb-10">
         <div class="md:w-1/3 animate__animated animate__fadeInUp animate__fast">
             <div class="relative w-72 m-auto">
-                <img 
-                    class="rounded-full border shadow-sm w-full" 
+                <img
+                    class="rounded-full border shadow-sm w-full"
                     src="~/assets/images/indodevniaga_3688.jpeg"
                     id="avatar-img"
                     alt="Itsuka" />

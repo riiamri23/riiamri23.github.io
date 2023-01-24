@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar px-2 flex justify-around my-6 animate__animated animate__fadeInUp animate__fast">
+<nav class="navbar px-2 flex justify-around md:my-6 sm:my-3 animate__animated animate__fadeInUp animate__fast">
     <div class="container flex flex-wrap justify-between items-center mx-auto md:justify-start">
         <div class="flex-shrink-0 flex items-center justify-center">
             <router-link to="/" class="text-gray-900 px-3 py-2 rounded-md font-medium text-lg">>Rii.</router-link>

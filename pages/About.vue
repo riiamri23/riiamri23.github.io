@@ -1,5 +1,5 @@
 <template>
-    <div class="container md:flex flex-row mx-auto mt-20 ">
+    <div class="container md:flex flex-row mx-auto md:mt-20 ">
         <div class="md:w-1/2 px-4 animate__animated animate__fadeInUp animate__fast">
             <h1 class="text-4xl font-semibold line-after mb-5">About Me</h1>
             <h4 class="text-xl font-medium mb-2">Hey 👋</h4>
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="md:w-1/2 md:block hidden">
-                <img 
+                <img
                     src="~/assets/images/working.jpeg"
                     id="working-img"
                     alt="woring" />

@@ -1,5 +1,5 @@
 <template>
-    <div class="container md:flex flex-row mx-auto mt-20">
+    <div class="container md:flex flex-row mx-auto md:mt-20">
         <div class="md:w-1/2 px-4 animate__animated animate__fadeInUp animate__fast">
             <h1 class="text-4xl font-semibold line-after mb-5">My Experiences</h1>
             <div class="flex-row">

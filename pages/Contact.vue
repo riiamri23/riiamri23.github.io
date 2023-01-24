@@ -4,10 +4,11 @@
         <h1 class="text-4xl">Get in Touch</h1>
         <p>If you have any question or just want to say hi, i'll try my best to get back to you</p>
     </div>
-    <form action=”mailto:contact@yourdomain.com”
+    <form action=”mailto:riiamri23@gmail.com”
     method=”POST”
     enctype=”text/plain”
-    name=”EmailForm”>
+    name=”EmailForm”
+    target="_top">
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="yourname">
                 Your Name
