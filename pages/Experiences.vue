@@ -35,10 +35,10 @@
                                 </div>
                             </div>
                             <ul class="list-disc list-outside ml-4">
-                                <li>Designing documentation and coding for new features in sunfish 6, sunfish 7 just for attendance module</li>
-                                <li>Doing bug fixing on sunfish 6, sunfish 7 and greatdayhr (backend) applications</li>
-                                <li>Checks if the functional application is running properly and there are no errors or bugs</li>
-                                <li>Support software implementation and maintenance if they had a problem with module attendance</li>
+                                <li>Create documentation and coding for a new features in module attendance Sunfish 6 and Workplaze</li>
+                                <li>bug fixing in the application Sunfish 6, Workplaze and backend for Greatdayhr</li>
+                                <li>Check if the functional application is running properly and make sure there are no errors or bugs</li>
+                                <li>Supporting software implementation and maintenance if they had a problem with the attendance module</li>
                             </ul>
                         </div>
                     </li>
@@ -59,11 +59,11 @@
                             </div>
                             </div>
                             <ul class="list-disc list-outside ml-4">
-                                <li>Create and design the Lawson Delivery online order web application (https://order.lws.co.id)</li>
-                                <li>Integrating online order web application with POS</li>
-                                <li>Create an order tracking application to ensure that products are traced from the store to the customer</li>
-                                <li>Create a mobile application for online orders (prototype)</li>
-                                <li>Integrating applications with payment gateways (midtrans)</li>
+                                <li>Develop web and mobile apps for online orders (Lawson Delivery)</li>
+                                <li>Integrate with midtrans for the transaction</li>
+                                <li>Integrate with POS when a customer makes an online order</li>
+                                <li>Develop Dashboard for admin to input the products and promos</li>
+                                <li>Helps other divisions if they have a problem with their PC or printers</li>
                             </ul>
                         </div>
                     </li>

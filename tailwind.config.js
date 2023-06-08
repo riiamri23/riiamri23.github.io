@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      padding: {
+        'per56': '56%',
+      },
+      margin: {
+        'min1': '-1rem',
+      }
+    },
 
     fontFamily: {
       'Quicksand': ['Quicksand'],
