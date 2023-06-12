@@ -11,15 +11,15 @@
             </div>
         </div>
         <div class="md:w-2/3 px-2">
-            <h1 class="text-2xl md:text-4xl font-semibold animate__animated animate__fadeInUp animate__fast">Hi 👋, <br/>
+            <h1 class="text-xl md:text-4xl font-semibold animate__animated animate__fadeInUp animate__fast">Hi 👋, <br/>
             I'm Syaeful Amri.
             </h1>
-            <h2 class="text-xl md:text-2xl font-semibold animate__animated animate__fadeInUp animate__fast">Software Developer</h2>
-            <div class="my-4 md:w-4/5 animate__animated animate__fadeInUp animate__fast">
-                <p class="text-md md:text-lg mb-4">I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge.</p>
+            <h2 class="text-md md:text-xl font-semibold animate__animated animate__fadeInUp animate__fast">Software Developer</h2>
+            <div class="my-2 md:my-4 md:w-4/5 animate__animated animate__fadeInUp animate__fast">
+                <p class="text-sm md:text-lg my-2 md:mb-4">I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge.</p>
                 <div id="button" class="flex">
-                    <router-link to="/project" class="text-white bg-gray-600 px-3 py-2 rounded mx-2 animate__animated animate__wobble animate__delay-2s animate__fast">Explore ></router-link>
-                    <a href="/Portfolio_Syaeful Amri.pdf" download class="text-white bg-red-500 px-3 py-2 rounded mx-2">Download CV</a>
+                    <router-link to="/project" class="text-sm md:text-lg text-white bg-gray-600 px-1 md:px-3 py-2 mx-1 md:mx-2 rounded animate__animated animate__wobble animate__delay-2s animate__fast">Explore ></router-link>
+                    <a href="/Portfolio_Syaeful Amri.pdf" download class="text-sm md:text-lg text-white bg-red-500 px-1 md:px-3 py-2 mx-1 md:mx-2 rounded">Download CV</a>
                 </div>
             </div>
             <div id="sosmed-link" class="flex justify-center md:justify-start animate__animated animate__fadeInUp animate__delay-1s">

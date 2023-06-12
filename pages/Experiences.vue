@@ -1,23 +1,8 @@
 <template>
-    <div class="container md:flex flex-row mx-auto md:mt-20">
+    <div class="container md:flex flex-row mx-auto md:mt-5">
         <div class="md:w-1/2 px-4 animate__animated animate__fadeInUp animate__fast">
             <h1 class="text-4xl font-semibold line-after mb-5">My Experiences</h1>
             <div class="flex-row">
-                <!-- <div class="w-full md:flex flex-row mx-auto">
-                    <img src="~/assets/images/dataon.png" alt="dataon company logo" class="md:w-40">
-                    <div class="ml-4">
-                        <h2 class="text-2xl font-medium mb-2">PT. Indodev Niaga Internet</h2>
-                        <h4 class="text-xl font-medium mb-2">Software Developer</h4>
-                    </div>
-                </div>
-                <div class="w-full">
-                    <ul class="list-disc marker:text-blue-500 mx-4">
-                        <li>Designing documentation and coding for new features in Sunfish 6, Sunfish 7</li>
-                        <li>Doing bug fixing on Sunfish 6, Sunfish 7 and GreatDayHR (backend) applications</li>
-                        <li>Checks if the functional application is running properly and there are no errors or bugs</li>
-                        <li>Support software implementation and maintenance if you find problems with module attendance</li>
-                    </ul>
-                </div> -->
                 <ol class="relative border-l border-gray-700">
                     <li class="mb-10 ml-4">
                         <div

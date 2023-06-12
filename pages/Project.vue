@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto mt-10  animate__animated animate__fadeInUp animate__fast">
+  <div class="container mx-auto md:mt-5  animate__animated animate__fadeInUp animate__fast">
     <h1 class="text-4xl text-center mb-10">My Projects</h1>
-    <div id="list-projects" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-4 justify-start my-2">
+    <div id="list-projects" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-4 justify-start my-2 mx-5">
       <article class="w-full relative content" v-for="project in projects" :key="project.name">
         <div class="inset-0 overflow-hidden absolute bg-purple-100 opacity-90 rounded-md m-min1 contain-bg"></div>
         <div class="overflow-hidden relative grid items-stretch">
@@ -156,7 +156,7 @@ export default {
           desc: "Look at this game i've made for you",
           repoLink: "https://github.com/riiamri23/gamelist/",
           webLink: "https://riiamri23.github.io/gamelist/",
-          imgSrc: ["https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"]
+          imgSrc: ["https://raw.githubusercontent.com/riiamri23/gamelist/main/assets/screenshot/pacman.png"]
         },
       ],
     };
