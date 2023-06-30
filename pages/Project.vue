@@ -86,6 +86,8 @@ hr.line {
 <script>
 import GithubIcon from "vue-ionicons/dist/logo-github.vue";
 import MdLinkIcon from "vue-ionicons/dist/md-link.vue";
+import json from '~/assets/json/projects.json';
+
 export default {
 
   // will adding this style
@@ -122,43 +124,7 @@ export default {
       constants: {
         per56: 56.25
       },
-      projects: [
-        {
-          name: "wibudesu",
-          desc: "Watching some anime, manga and about anime news, you can see everything here",
-          repoLink: "https://github.com/riiamri23/wibudesu2",
-          webLink: "https://wibudesu.vercel.app/",
-          imgSrc: ["https://raw.githubusercontent.com/riiamri23/wibudesu2/master/src/assets/images/anime_home.png"]
-        },
-        {
-          name: "mypokedex",
-          desc: "Look at pokedex you love there, you can see every pokemon here",
-          repoLink: "https://github.com/riiamri23/mypokedex",
-          webLink: "https://mypokedex-ten.vercel.app/",
-          imgSrc: ["https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"]
-        },
-        {
-          name: "chatheroin",
-          desc: "Do you want chat with Open AI GPT3, there is",
-          repoLink: "https://github.com/riiamri23/chatheroin",
-          webLink: "https://chatheroin.vercel.app/",
-          imgSrc: ["https://raw.githubusercontent.com/riiamri23/chatheroin/main/src/assets/ssaapp.png"]
-        },
-        {
-          name: "kakeibo",
-          desc: "You want rekap your money? then you in the right place",
-          repoLink: "https://github.com/riiamri23/kakeibo",
-          webLink: "https://kakeibo-six.vercel.app/",
-          imgSrc: ["https://raw.githubusercontent.com/riiamri23/kakeibo/main/src/assets/example/home.png"]
-        },
-        {
-          name: "gamelist",
-          desc: "Look at this game i've made for you",
-          repoLink: "https://github.com/riiamri23/gamelist/",
-          webLink: "https://riiamri23.github.io/gamelist/",
-          imgSrc: ["https://raw.githubusercontent.com/riiamri23/gamelist/main/assets/screenshot/pacman.png"]
-        },
-      ],
+      projects: json,
     };
   },
   components: {
