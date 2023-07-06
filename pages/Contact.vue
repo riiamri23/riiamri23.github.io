@@ -1,7 +1,7 @@
 <template>
 <div class="container flex-row items-center justify-center m-auto shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-lg animate__animated animate__fadeInUp animate__fast">
     <div class="text-center">
-        <h1 class="text-4xl">Get in Touch</h1>
+        <h1 class="md:text-4xl text-2xl">Get in Touch</h1>
         <p>If you have any question or just want to say hi, i'll try my best to get back to you</p>
     </div>
     <form action=”mailto:riiamri23@gmail.com”

@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto md:mt-5  animate__animated animate__fadeInUp animate__fast md:mb-5">
-      <h1 class="text-4xl font-semibold line-after mb-10 ml-4">My Experiences</h1>
-      <div id="list-projects" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-4 justify-start my-2 mx-5">
+      <h1 class="md:text-4xl text-2xl font-semibold line-after mb-10 ml-4">My Experiences</h1>
+      <div id="list-projects" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-6 justify-start my-2 mx-5">
         <ExperienceCard v-for="experience in experiences" :key="experience.company" :experience="experience" />
       </div>
     </div>

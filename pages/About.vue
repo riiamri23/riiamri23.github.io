@@ -1,7 +1,7 @@
 <template>
     <div class="container md:flex flex-row mx-auto md:mt-5 ">
         <div class="md:w-1/2 px-4 animate__animated animate__fadeInUp animate__fast">
-            <h1 class="text-4xl font-semibold line-after mb-5">About Me</h1>
+            <h1 class="md:text-4xl text-2xl font-semibold line-after mb-5">About Me</h1>
             <h4 class="text-xl font-medium mb-2">Hey 👋</h4>
             <p>My Name is Syaeful Amri, I’ve no life and I’m a programmer. I've sacrificed my life to learn programming languages to build apps. I can make your dream come true with my power and knowledge.</p>
             <p>I have 5+ years experience in crafting beautiful web and mobile interfaces. Plus I am an agile learner, I learn new cool stuffs everyday.</p>
