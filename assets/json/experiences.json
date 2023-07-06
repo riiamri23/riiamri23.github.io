@@ -1,0 +1,61 @@
+[
+
+  {
+    "company": "PT. Indodev Niaga Internet (Dataon Indonesia)",
+    "address":"South Tangerang City, Banten",
+    "description": "I transitioned from Lawson Indonesia to Dataon in 2021, where I currently work. My main responsibility is developing the attendance module for Sunfish 6 and Sunfish Workplaze. I extensively utilize ColdFusion as the primary programming language. I am involved in system maintenance and enhancements, including upgrading from a monolithic ColdFusion codebase to a modern architecture with ReactJS for the frontend and ColdFusion Script for the backend. I specialize in the time and attendance module and provide support for implementation and software maintenance. My role at Dataon has allowed me to deepen my ColdFusion expertise and gain experience in modernizing legacy systems and developing essential modules.",
+    "image":[
+      "gedung_dataon.webp"
+    ],
+    "startDate": "2021-07-05",
+    "endDate": "",
+    "isCurrentlyWorkingThere": true,
+    "position": "Software Developer",
+    "jobTask": [
+      "Create documentation and coding for a new features in module attendance Sunfish 6 and Workplaze",
+      "Bug fixing in the application Sunfish 6, Workplaze and backend for GreatdayHR",
+      "Check if the functional application is running properly and make sure there are no errors or bugs",
+      "Supporting software implementation and maintenance if they had a problem with the attendance module"
+    ]
+  },
+  {
+    "company": "PT. Lancar Wiguna Sejahtera (Lawson Indonesia)",
+    "address":"South Tangerang City, Banten",
+    "description": "After college, I joined Lawson Indonesia and spent 1.5 years there. My main responsibility was developing a web application and mobile application called LDR (Lawson Delivery) to enhance sales. Using Laravel for the backend, VueJS for the frontend, and MySQL for the database, I successfully completed the web application project. \n\nI took on the development of the mobile application using Flutter. This involved handling various tasks such as transaction implementation and integration with the Midtrans payment gateway. However, I ultimately resigned from the company after completing the mobile application project.",
+    "image":[
+      "alfa_tower.webp"
+    ],
+    "startDate": "2020-03-20",
+    "endDate": "2021-07-01",
+    "isCurrentlyWorkingThere": false,
+    "position": "Data Mining Programmer",
+    "jobTask": [
+      "Develop web and mobile apps for online orders (Lawson Delivery)",
+      "Integrate with midtrans for the transaction",
+      "Integrate with POS when a customer makes an online order",
+      "Develop Dashboard for admin to input the products and promos",
+      "Helps other divisions if they have a problem with their PC or printers"
+    ]
+  },
+  {
+    "company": "CV. Infomedia Technology",
+    "address":"Purwokerto, Central Java",
+    "description": "This was my first experience during my time in college. I took on a part-time job working on my lecturer's project until my graduation, which spanned from around 2017 to early 2020. In this role, I was responsible for developing a web application for a licensing office. This experience provided me with valuable insights into the process of permit issuance and introduced me to the upcoming implementation of the government's Online Single Submission (OSS) system. I gained a comprehensive understanding of how permits are obtained and the anticipated benefits of the OSS system.",
+    "image":[
+      "No_Image_Available.webp"
+    ],
+    "startDate": "2017-09-28",
+    "endDate": "2020-02-28",
+    "isCurrentlyWorkingThere": false,
+    "position": "IT Staff",
+    "jobTask": [
+      "Create a web company profile (https://inf.co.id)",
+      "Create application web SIJEMPOL for dpmptsp district kapuas",
+      "Create application web SIMPATIK for dpmptsp province central kalimantan",
+      "Create triggers in the database to process transactions in the application",
+      "Create licensing templates and customize such as office requests for examples of permits: SIUP, IUJK, TDP, SIP, etc.",
+      "Ensure that the application is running according to the regulations set by the office",
+      "Learn about digital signatures and OSS that will be implemented by the government (2019-2020)"
+    ]
+  }
+]
