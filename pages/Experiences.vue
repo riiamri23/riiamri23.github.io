@@ -59,7 +59,7 @@ export default ({
   },
   data(){
     return {
-      experiences: experienceJson.reverse(),
+      experiences: experienceJson,
     }
   }
 })
