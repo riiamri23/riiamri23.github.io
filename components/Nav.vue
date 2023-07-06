@@ -2,7 +2,7 @@
 <nav class="navbar px-2 flex justify-around md:my-6 sm:my-3 animate__animated animate__fadeInUp animate__fast">
     <div class="container flex flex-wrap justify-between items-center mx-auto md:justify-start">
         <div class="flex-shrink-0 flex items-center justify-center">
-            <router-link to="/" class="text-gray-900 px-3 py-2 rounded-md font-medium text-lg">>Rii.</router-link>
+            <router-link to="/" class="text-gray-900 px-3 py-2 rounded-md font-medium text-lg">>Rii_</router-link>
         </div>
         <div class="flex md:order-2">
             <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false" onclick="document.querySelector('#mobile-menu').classList.toggle('hidden')">
@@ -16,11 +16,14 @@
                     <router-link to="/About" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</router-link>
                 </li>
                 <li>
-                    <router-link to="/Project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</router-link>
-                </li>
-                <li>
                     <router-link to="/Experiences" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experiences</router-link>
                 </li>
+                <li>
+                    <router-link to="/Project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</router-link>
+                </li>
+                <!-- <li>
+                    <router-link to="/Project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Articles</router-link>
+                </li> -->
                 <li>
                     <router-link to="/Contact" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</router-link>
                 </li>

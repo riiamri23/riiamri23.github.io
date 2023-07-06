@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto md:mt-5  animate__animated animate__fadeInUp animate__fast">
-    <h1 class="text-4xl text-center mb-10">My Projects</h1>
+    <h1 class="text-4xl font-semibold line-after mb-10 ml-4">Projects</h1>
     <div id="list-projects" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-10 gap-y-4 justify-start my-2 mx-5">
       <article class="w-full relative content" v-for="project in projects" :key="project.name">
         <div class="inset-0 overflow-hidden absolute bg-purple-100 opacity-90 rounded-md m-min1 contain-bg"></div>
@@ -37,6 +37,20 @@
 </template>
 
 <style scoped>
+.line-after {
+  overflow: hidden;
+}
+.line-after::after {
+  content: "";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 30%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 2px solid rgb(211, 46, 46);
+}
+
 hr.dope {
   border: 0;
   width: 90px;
@@ -86,13 +100,10 @@ hr.line {
 <script>
 import GithubIcon from "vue-ionicons/dist/logo-github.vue";
 import MdLinkIcon from "vue-ionicons/dist/md-link.vue";
-import json from '~/assets/json/projects.json';
+import projectJson from '~/assets/json/projects.json';
 
 export default {
 
-  // will adding this style
-  // clip-path: inset(2rem -2rem 1rem 2rem round 10px);
-  // transition: clip-path .3s ease .1s;
   head: {
     title: "Syaeful Amri - Project",
     meta: [
@@ -105,7 +116,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "portfolio rii amri github",
+        content: "Syaeful Amri - List Personal Project",
       },
       {
         property: "og:description",
@@ -124,7 +135,7 @@ export default {
       constants: {
         per56: 56.25
       },
-      projects: json,
+      projects: projectJson,
     };
   },
   components: {

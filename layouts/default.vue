@@ -33,7 +33,7 @@ export default {
     return {
       bodyAttrs: {
         class: "font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover bg-image",
-        
+
       },
     };
   },

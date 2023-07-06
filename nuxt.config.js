@@ -83,6 +83,7 @@ export default {
         'postcss-import': {},
         tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
         'postcss-nested': {}
+
       }
     },
     preseet: {
