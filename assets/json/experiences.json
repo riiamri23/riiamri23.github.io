@@ -21,7 +21,7 @@
   {
     "company": "PT. Lancar Wiguna Sejahtera (Lawson Indonesia)",
     "address":"South Tangerang City, Banten",
-    "description": "After college, I joined Lawson Indonesia and spent 1.5 years there. My main responsibility was developing a web application and mobile application called LDR (Lawson Delivery) to enhance sales. Using Laravel for the backend, VueJS for the frontend, and MySQL for the database, I successfully completed the web application project. \n\nI took on the development of the mobile application using Flutter. This involved handling various tasks such as transaction implementation and integration with the Midtrans payment gateway. However, I ultimately resigned from the company after completing the mobile application project.",
+    "description": "After college, I joined Lawson Indonesia and spent 1.5 years there. My main responsibility was developing a web application and mobile application called LDR (Lawson Delivery). Using Laravel for the backend, VueJS for the frontend, and MySQL for the database, I successfully completed the web application project. \n\nI took on the development of the mobile application using Flutter. This involved handling various tasks such as transaction implementation and integration with the Midtrans payment gateway. However, I ultimately resigned from the company after completing the mobile prototype application project.",
     "image":[
       "alfa_tower.webp"
     ],

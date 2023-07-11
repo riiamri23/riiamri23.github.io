@@ -1,7 +1,6 @@
 <template>
-  <article class="w-full relative content my-2" >
-    <div class="inset-0 overflow-hidden absolute bg-purple-100 opacity-90 rounded-md m-min1"></div>
-    <div class="overflow-hidden relative grid items-stretch">
+  <article class="w-full relative my-2 bg-purple-100 opacity-90 p-2 rounded-md experienced">
+    <div class="overflow-hidden grid items-stretch">
       <div class="h-full rounded-md pt-per56 bg-cover relative">
         <div data-picture="true">
           <picture>
@@ -49,9 +48,20 @@
     </div>
   </article>
 </template>
+<style scoped>
+
+.experienced {
+  transition: transform .2s;
+}
+.experienced:hover{
+
+  -ms-transform: scale(1.15); /* IE 9 */
+  -webkit-transform: scale(1.15); /* Safari 3-8 */
+  transform: scale(1.15);
+}
+</style>
 
 <script>
-
 export default ({
   props: ['experience'],
   methods: {
