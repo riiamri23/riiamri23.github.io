@@ -19,11 +19,11 @@
                     <router-link to="/Experiences" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Experiences</router-link>
                 </li>
                 <li>
-                    <router-link to="/Project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</router-link>
+                    <router-link to="/Projects" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</router-link>
                 </li>
-                <!-- <li>
-                    <router-link to="/Project" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Articles</router-link>
-                </li> -->
+                <li>
+                    <router-link to="/Articles" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Articles</router-link>
+                </li>
                 <li>
                     <router-link to="/Contact" class="text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</router-link>
                 </li>

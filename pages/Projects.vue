@@ -9,7 +9,7 @@
             <div data-picture="true">
               <picture>
                 <source type="image/webp" v-bind:srcset="project.imgSrc[0]" />
-                <img v-bind:src="project.imgSrc[0]" alt="dummy project" class="object-contain h-full top-0 left-0 block absolute rounded-md" />
+                <img v-bind:data-src="project.imgSrc[0]" alt="dummy project" class="object-contain h-full top-0 left-0 block absolute rounded-md" loading="lazy" />
               </picture>
             </div>
           </div>

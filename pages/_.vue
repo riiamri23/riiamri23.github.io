@@ -1,14 +1,14 @@
 <template>
     <div class="container mx-auto mt-20 ">
         <h1>Nothing to see here :)</h1>
-        <p>The list url page</p>
+        <p>The list url page the character read as case sensitive you can't write About as about, it's different</p>
         <br />
         <ul>
             <li>/</li>
-            <li>/about</li>
-            <li>/projects</li>
-            <li>/experiences</li>
-            <li>/contact</li>
+            <li>/About</li>
+            <li>/Arojects</li>
+            <li>/Experiences</li>
+            <li>/Contact</li>
         </ul>
     </div>
 </template>
@@ -17,7 +17,7 @@
 <script>
 
     export default ({
-    
+
       head: {
         title: "Syaeful Amri - Not Found",
         meta: [

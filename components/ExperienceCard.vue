@@ -5,7 +5,7 @@
         <div data-picture="true">
           <picture>
             <source type="image/webp" :srcset="getImageUrl(experience.image[0])" />
-            <img :src="getImageUrl(experience.image[0])" :alt="experience.company" class="object-contain h-full top-0 left-0 block absolute rounded-md" />
+            <img :src="getImageUrl(experience.image[0])" :alt="experience.company" class="object-contain h-full top-0 left-0 block absolute rounded-md" loading="lazy" />
           </picture>
         </div>
       </div>
