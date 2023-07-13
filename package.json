@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "letsgo": "sh ./script.sh"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^2.5.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "animate.css": "^4.1.1",
+    "core-js": "^3.15.1",
+    "install": "^0.13.0",
+    "npm": "^8.19.1",
+    "nuxt": "^2.15.7",
+    "rss-to-json": "^2.1.1",
+    "v-animate-css": "^0.0.5",
+    "vue-ionicons": "^3.0.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/tailwindcss": "^4.2.1",
+    "autoprefixer": "^10.2.6",
+    "nuxt-purgecss": "^1.0.0",
+    "postcss": "^8.3.5",
+    "push-dir": "^0.4.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
