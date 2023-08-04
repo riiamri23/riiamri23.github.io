@@ -1,6 +1,7 @@
 <template>
 
-    <article class="w-full relative my-2 bg-purple-100 opacity-90 p-2 rounded-md experienced">
+    <article class="w-full cursor-pointer relative has-tooltip my-2 bg-purple-100 opacity-90 p-2 rounded-md experienced" x-data="{ hover: false }"
+        @mouseenter="hover = true" @mouseleave="hover = false">
       <router-link :to="`/Experience?id=${experience?.id}`">
         <div class="overflow-hidden grid items-stretch">
           <div class="h-full rounded-md pt-per56 bg-cover relative">
@@ -38,17 +39,13 @@
           <!--- hidden --->
           <div class="flex-row space-y-2 overflow-hidden">
             <p class="text-xs whitespace-pre-line">{{ experience.description }}</p>
-            <!-- <div class="flex space-x-2">
-              <div>
-                <h3 class="text-sm">Environment</h3>
-              </div>
-              <div>
-                <h3 class="text-sm">Programming Languages</h3>
-              </div>
-            </div> -->
           </div>
         </div>
       </router-link>
+      <!-- <div class="relative"> -->
+
+      <span class='absolute top-0 right-0 tooltip rounded shadow-lg px-1 bg-purple-300'>Click for the detail</span>
+      <!-- </div> -->
     </article>
 </template>
 <style scoped>

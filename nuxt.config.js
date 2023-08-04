@@ -89,5 +89,8 @@ export default {
     preseet: {
       stage: 1
     }
+  },
+  server: {
+    port: 4500,
   }
 }

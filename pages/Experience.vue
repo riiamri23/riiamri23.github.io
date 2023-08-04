@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto md:mt-5  animate__animated animate__fadeInLeft animate__fast md:mb-5">
       <div class=" mb-10 ml-4">
-        <h1 class="md:text-4xl text-2xl font-semibold line-after"><router-link to="/Experiences"><img alt="out date" width="25" class="inline-block mr-2" src="@/assets/svg/back-arrow-direction-down-right-left-up-svgrepo-com.svg" /></router-link>PT Indodev Niaga Internet</h1>
+        <h1 class="md:text-4xl text-2xl font-semibold line-after"><router-link to="/Experiences"><img alt="out date" width="25" class="inline-block mr-2" src="@/assets/svg/back-arrow-direction-down-right-left-up-svgrepo-com.svg" /></router-link>{{ experienceDetail.company }}</h1>
       </div>
       <div id="list-projects" class="md:flex md:space-x-2 space-y-2 md:space-y-0 my-2 mx-5">
         <div class="bg-purple-100 md:w-1/2 w-full px-2 py-4 rounded-md">
@@ -11,7 +11,7 @@
               <img :src="getImageUrl(experienceDetail.image[0])" :alt="experienceDetail.company" class="object-contain h-full top-0 left-0 block rounded-md" loading="lazy" />
             </picture>
           </div>
-          <h1 class="font-bold text-lg mb-2">{{ experienceDetail.company }}</h1>
+          <!-- <h1 class="font-bold text-lg mb-2">{{ experienceDetail.company }}</h1> -->
           <p class="text-md whitespace-pre-line">{{ experienceDetail.aboutCompany }}</p>
           <hr>
           <br />
